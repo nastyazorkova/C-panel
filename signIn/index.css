@@ -1,75 +1,150 @@
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .imageblock {
-    margin-bottom: 40px;
-    margin-top: 60px;
-    text-align: center;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  text-align: center;
 }
 
 .infoblock {
-    width: 350px;
-    padding: 24px;
-    border-radius: 4px;
-    background-color: #fff;
-    border: solid 1px #e2e5ec;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
+  width: 350px;
+  padding: 24px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: solid 1px #e2e5ec;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
 }
 
 .error-message {
-    padding: 16px;
-    border-radius: 4px;
-    background-color: #ffd0d0;
-    color: #721c23;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #ffd0d0;
+  color: #721c23;
 }
 
-.error-message, .pass-confirm {
-    margin-bottom: 16px;
+.error-message,
+.pass-confirm {
+  margin-bottom: 16px;
 }
 
 input {
-    width: 100%;
-    padding: 12px;
-    box-sizing: border-box;
-    border-radius: 4px;
-    border: solid 1px #e2e5ec;
-    
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: solid 1px #e2e5ec;
 }
 
 .enter {
-    padding: 16px;
-    border-radius: 4px;
-    background-color: #00afcc;
-    color: #fff;
-    border: none;
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #00afcc;
+  color: #fff;
+  border: none;
 }
 
 .mark {
-margin-bottom: 24px;
-font-weight: bold;
-line-height: 32px;
-color: #032128;
-font-size: 24px;
+  margin-bottom: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #032128;
+  font-size: 24px;
 }
 
 .password {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .button-block {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .afterblock {
-    text-align: center;
-    padding-top: 16px;
+  text-align: center;
+  padding-top: 16px;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.imageblock {
+  margin-bottom: 40px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.infoblock {
+  width: 350px;
+  padding: 24px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: solid 1px #e2e5ec;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.error-message {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #ffd0d0;
+  color: #721c23;
+}
+
+.error-message,
+.pass-confirm {
+  margin-bottom: 16px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: solid 1px #e2e5ec;
+}
+
+.enter {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: #00afcc;
+  color: #fff;
+  border: none;
+}
+
+.mark {
+  margin-bottom: 24px;
+  font-weight: bold;
+  line-height: 32px;
+  color: #032128;
+  font-size: 24px;
+}
+
+.password {
+  margin-bottom: 12px;
+}
+
+.button-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.afterblock {
+  text-align: center;
+  padding-top: 16px;
 }
