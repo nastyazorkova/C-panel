@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.name {
+    width: 224px;
+    height: 32px;
+    margin: 24px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #032128;
+}
+
+.information-block {
+    margin-left: 30px;
+    margin-top: 24px;
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 0;
+    border: solid 1px #e2e5ec;
+    background-color: #fff;
+}
+
+input, select {
+    width: 587px;
+    height: 40px;
+    flex-direction: column;
+    display: flex;
+    border-radius: 4px;
+    border: solid 1px #e2e5ec;
+    background-color: #fff;
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #032128;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #747e81;
+}
+
+.text-information {
+    padding: 16px;
+    border-radius: 4px;
+    background-color: #d0ebff;
+    font-size: 14px;
+    line-height: 24px;
+    color: #032128;
+    margin-bottom: 24px;
+}
+
+.link {
+    font-weight: bold;
+}
+
+.Submit {
+    width: 117px;
+    margin-top: 12px;
+    border-radius: 4px;
+    background-color: #00afcc;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    border: none;
+    padding: 8px 16px;
+}
+
