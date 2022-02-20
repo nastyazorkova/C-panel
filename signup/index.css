@@ -21,7 +21,7 @@ box-sizing: border-box;
  background-color: #fff;
 }
 
-.name {
+.create-account {
 font-size: 24px;
 font-weight: bold;
 line-height: 32px;
@@ -38,9 +38,14 @@ input {
  line-height: 24px;
 }
 
+.checkbox-input {
+  margin: 0 12px 0 0;
+}
+
 .agreement {
-    margin-bottom: 16px;
-   line-height: 24px;
+   margin-bottom: 16px;
+   display: flex;
+   align-items: center;
 }
 
 button {
@@ -53,7 +58,7 @@ button {
   border: none;
 }
 
-.end-name {
+.last-block {
  margin: 16px;
  font-size: 14px;
  line-height: 24px;
